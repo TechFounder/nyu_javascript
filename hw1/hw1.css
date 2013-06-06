@@ -21,3 +21,7 @@ th, td {
 th {
 	background-color: #e3e3e3;
 }
+
+.part2, .part3, .part4 {
+	font-size: 20px;
+}
