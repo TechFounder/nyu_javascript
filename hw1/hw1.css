@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: gray;
+}
+
+table {
+	border: 2px solid black;
+	margin: auto;
+	padding: 25px;
+}
+
+th, td {
+	padding: 15px;
+	border: 1px solid black;
+}
+
+th {
+	background-color: #e3e3e3;
+}
