@@ -1,6 +1,7 @@
 document.write('<table>');
 var max = Math.floor((Math.random()*10)+1);
 	for (row = 1; row <= max + 1; row++) {
+		document.write('</tr>');
 		if (row == 1) {
 			document.write('<th>', 'X', '</th>');
 				col = 1;
@@ -17,6 +18,6 @@ var max = Math.floor((Math.random()*10)+1);
 						col++;
 				}
 		}
-		document.write('<tr>');
+		document.write('</tr>');
 	}
 document.write('</table>');
