@@ -1,5 +1,6 @@
 document.write('<table>');
 	for (row = 1; row <= 11; row++) {
+		document.write('</tr>');
 		if (row == 1) {
 			document.write('<th>', 'X', '</th>');
 				col = 1;
@@ -16,6 +17,6 @@ document.write('<table>');
 						col++;
 				}
 		}
-		document.write('<tr>');
+		document.write('</tr>');
 	}
 document.write('</table>');
