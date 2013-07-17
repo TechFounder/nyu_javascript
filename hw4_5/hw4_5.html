@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>HW 4/5</title>
+	</head>
+
+	<body>
+		<h1>Playing wih Forms</h1>
+			<form method="post" action="http://oit.scps.nyu.edu/cgi-bin/sultans/formProc">
+				<fieldset>
+					<legend>Master Form</legend>
+						<input type="text" name="fname" placeholder="your first name" autofocus required>
+						<input type="text" name="lname" placeholder="your last name" required><br>
+						<input type="text" name="email" placeholder="your email" ><br><br>
+					<legend>Gender</legend>
+					<label for="male">Male</label>
+						<input id="male" type=radio name="gender" value="male">
+					<label for="female">Female</label>	
+						<input id="female" type=radio name="gender" value="female"><br><br>
+					<legend>What do you think of the course?</legend>
+					<select size="2">
+						<option value="fantastic">Fantastic!</option>
+						<option value="great">Great</option>
+						<option value="good">Good</option>	
+						<option value="soso">So-so</option>	
+						<option value="fair">Fair</option>
+						<option value="meh">Meh</option>
+						<option value="bad">Bad</option>
+						<option value="sucks">Sucks!</option>	
+					</select>		
+				</fieldset>
+			</form>
+	</body>
+</html>
