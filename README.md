@@ -1,3 +1,3 @@
 Classwork
 =========
-Classwork from NYU Javascript class
+Classwork from NYU JavaScript class
