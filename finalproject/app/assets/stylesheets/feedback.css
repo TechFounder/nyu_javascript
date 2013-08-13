@@ -1,0 +1,158 @@
+body {
+	background-color: #57068c;
+}
+
+#topbanner {
+	width: 1440px;
+	height: 125px;
+	background-color: #ffffff;
+}
+
+header, div {
+	width: 1000px;
+	margin: auto;
+	padding-top: 12px;
+}
+
+nav {
+	float: right;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	color: #57068c;
+}
+
+a {
+	font-family: 'Noticia Text', serif;
+	font-size: .8em;
+	font-weight: bold;
+	color: #7e7e7e;
+	text-decoration: none;
+	padding-left: 50px;
+}
+
+.mainbody {
+	width: 1440px;
+	background-color: #e8e2e2;
+	border-bottom: 3px solid white;
+}
+
+.mainbody div {
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Noticia Text', serif;
+	color: #57068c;
+	clear: right;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 7px 23px 0;
+}
+
+h2, h3 {
+	width: 450px;
+	margin-bottom: 0;
+}
+
+h2 {
+	float: left;
+}
+
+h3 {
+	float: right;
+	text-align: right;
+	padding-top: 7px;
+}
+
+h4 {
+	color: #606060;
+	clear: both;
+	width: 1000px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+p {
+	color: #7e7e7e;
+	width: 1000px;
+	margin: auto;
+	padding-left: 20px;
+}
+
+.mainbody form {
+	width: 860px;
+	margin: 35px 0 30px 45px;
+	/*background-color: blue;*/
+}
+
+.mainbody form p {
+	font-family: 'Noticia Text', serif;
+	font-weight: bold;
+	color: #606060;
+	width: 45%;
+	float: left;
+	margin-top: 25px;
+}
+
+input, textarea {
+	font-size: .8em;
+	display: block;
+	width: 50%;
+	padding: 3px;
+	margin-bottom: 3px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	float: right;
+}
+
+input[type="submit"] {
+	color: white;
+	background-color: green;
+	width: 50px;
+	border-radius: 2px;
+	border: 0;
+	padding: 5px;
+	float: right;
+	clear: both;
+}
+
+.break {
+	border-bottom: 1px solid #606060;
+	padding-bottom: 20px;
+}
+
+footer {
+	height: 115px;
+}
+
+footer ul li {
+	font-size: .7em;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	left: 1000px;
+	top: 50px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}

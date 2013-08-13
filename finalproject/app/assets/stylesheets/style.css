@@ -1,0 +1,186 @@
+body {
+	background-color: #57068c;
+}
+
+#topbanner {
+	width: 1440px;
+	height: 125px;
+	background-color: #ffffff;
+}
+
+header, div {
+	width: 1000px;
+	margin: auto;
+	padding-top: 12px;
+}
+
+nav {
+	float: right;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+nav li a:hover {
+	color: #57068c;
+}
+
+a {
+	font-family: 'Noticia Text', serif;
+	font-size: .8em;
+	font-weight: bold;
+	color: #7e7e7e;
+	text-decoration: none;
+	padding-left: 50px;
+}
+
+.mainbody {
+	width: 1440px;
+	height: 580px;
+	background-color: #e8e2e2;
+	border-bottom: 3px solid white;
+}
+
+.mainbody div {
+	width: 1000px;
+	margin: auto;
+	/*background-color: beige;*/
+}
+
+#portrait {
+	float: left;
+	margin-top: 40px;
+	border-radius: 50%;
+	/*background-color: blue;*/
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 20px;
+	color: #494C4D;
+	padding-left: 20px;
+	position: absolute;
+	top: 617px;
+	left: 228px;
+	margin: 0 10px;
+	/*background-color: green;*/
+}
+
+blockquote p:before,
+blockquote p:after {
+	font-size: 40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 12px;
+	left: 0;
+}
+
+blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	bottom: 5px;
+	right: -10px;
+}
+
+h1, h2 {
+	font-family: 'Noticia Text', serif;
+	color: #606060;
+	width: 530px;
+	float: right;
+	position: relative;
+	margin: 0;
+	/*background-color: red;*/
+
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+	margin: 30px 0 0 0;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+button {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: none;
+	left: 1000px;
+	padding: 0;
+	margin: 25px 0 15px 60px;
+	float: left;
+	opacity: 0.5;
+	transition: opacity 1s;
+	-o-transition: opacity 1s; /* Opera */
+	-moz-transition: opacity 1s; /* Mozilla */
+	-webkit-transition: opacity 1s; /* Safari */
+}
+
+button p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: white;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+#button_left {
+	background-color: green;
+	padding-top: 23px;
+}
+
+#button_center {
+	background-color: #E3669E;
+	padding-top: 14px;
+}
+
+#button_right {
+	background-color: #00CEED;
+	padding-top: 4px;
+}
+
+#bodytext {
+	font-family: 'Noticia Text', serif;
+	font-size: .8em;
+	color: #606060;
+	width: 500px;
+	float: right;
+	position: static;
+	margin-right: 30px;
+}
+
+footer {
+	/*width: 1000px;*/
+	height: 115px;
+	/*margin: auto;*/
+	/*background-color: green;*/
+}
+
+footer ul li {
+	font-size: .7em;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	left: 1000px;
+	top: 50px;
+}
