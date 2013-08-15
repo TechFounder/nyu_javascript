@@ -1,6 +1,6 @@
 #Classwork & Final Class Project
 
-* hw# folders are for NYU JavaScript class home work assigments.
+* hw# folders are NYU JavaScript class home work assigments.
 
 ## NYU JavaScript Class Final Project
 
