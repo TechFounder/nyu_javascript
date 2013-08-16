@@ -1,4 +1,5 @@
-#Classwork & Final Class Project ![Alt NYU SCPS](finalproject/img/nyu_scps_logo.png "NYU SCPS")
+![Alt NYU SCPS](finalproject/img/nyu_scps_logo.png "NYU SCPS")
+#Classwork & Final Class Project
 
 * hw# folders are NYU JavaScript class home work assigments.
 
